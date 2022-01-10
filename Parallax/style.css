@@ -1,0 +1,81 @@
+body, html{
+	margin: 0;
+	font: 16px "Road Rage", sans-serif;
+	color: #777;
+	height: 100%;
+
+}
+
+@font-face{
+	font-family: "Road Rage";
+	src: url("Road_Rage.woff");
+}
+
+.conteudo{
+	color: #777;
+	background-color: white;
+	padding: 50px 80px;
+	text-align: justify;
+}
+
+p{
+	margin-bottom: 20px;
+}
+
+h3{
+	text-align: center;
+	color: #111;
+	text-transform: uppercase;
+}
+
+/*
+	EFEITO PARALLAX
+*/
+
+.caixa1, .caixa2, .caixa3 {
+	height: 100%;
+	border: 1px solid darkred;
+	opacity: 0.6;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.caixa1 {
+	background: url(images/imagem4.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+		
+}
+
+.caixa2 {
+	background: url(images/imagem6.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.caixa3 {
+	background: url(images/imagem1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.conteudo-titulo{
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.conteudo-titulo span.titulo{
+	color: #fff;
+	background: #00006f ;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+}
+
